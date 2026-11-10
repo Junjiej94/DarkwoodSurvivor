@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 2
+    m_PVRDenoiserTypeIndirect: 2
+    m_PVRDenoiserTypeAO: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1414346684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414346686}
+  - component: {fileID: 1414346685}
+  m_Layer: 0
+  m_Name: Forest Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1414346685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414346684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44eb0a975a2704748823ae84c70b2212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForestGame
+  forestMap: {fileID: 0}
+  lootTable: {fileID: 0}
+  tileWeights:
+  - 80
+  - 15
+  - 4
+  - 0.05
+  - 0.15
+  - 0.003
+  - 1
+  background: {fileID: 0}
+  grass: {fileID: 7932798033344189819, guid: 77d99220e18c0447da983ddc5ca64cf4, type: 3}
+  tree: {fileID: -8667466294985060184, guid: 74b2149618101405da36eb2e5d20c711, type: 3}
+  stump: {fileID: 4705881847378730582, guid: 4aabc5b3dadcc496d88c857f7283e6ab, type: 3}
+  playerArt: {fileID: 4334783836991956000, guid: 89f54dd50c6fa44a18286188112e4687, type: 3}
+  chestArt: {fileID: -6834524911116659543, guid: ae67403366f70481699c29b90a5fc42e, type: 3}
+  bossArt: {fileID: -2424553518018739129, guid: 315d8bef268b04ad99511378153c60d1, type: 3}
+  miniArt: {fileID: -7309935426003708424, guid: 43efbcf386ec246c38c7de7b953b7125, type: 3}
+  meleeArt: {fileID: 3141102024783767821, guid: 4e131ab4bf9ca499385332c4ebf42022, type: 3}
+  rangedArt: {fileID: -7679959431736786339, guid: b3eed55599c904a0dbf0a967cc2d7285, type: 3}
+  goldArt: {fileID: -7888306666823172397, guid: ed35364ce491b46498032341e3484454, type: 3}
+  heartArt: {fileID: 5919636899731364899, guid: 2be0f535dcf6f4fd1992ef38aa00b833, type: 3}
+  xpArt: {fileID: 982481958187241219, guid: 055144d236f8c4b74b176d4c5b4f1099, type: 3}
+  manaArt: {fileID: -2814797782015169094, guid: 8475bcede651f47de92887704e670676, type: 3}
+  staminaArt: {fileID: 867251580747774351, guid: f80d2801762dd4315b88e50231b2f2cc, type: 3}
+  bookArt: {fileID: -3935355149600342158, guid: 7f8194104490f40f381a215bd1630d71, type: 3}
+  activeArt:
+  - {fileID: 6827876503786922444, guid: 8619bcbb063524665a93b425391ca089, type: 3}
+  - {fileID: 5280069572154875796, guid: e66beba3a47274b2eb304a674fb26484, type: 3}
+  - {fileID: -630797952902947538, guid: a7009a52adc45429bb595da5224c99ca, type: 3}
+  passiveArt:
+  - {fileID: -305129039782656158, guid: 331421bfd504342cbaad5701cb7eeac8, type: 3}
+  - {fileID: -8133100433662427944, guid: eabaf22e461044f11a501fe956eae78a, type: 3}
+  - {fileID: -8133100433662427944, guid: eabaf22e461044f11a501fe956eae78a, type: 3}
+  weapons:
+  - name: Sword
+    damage: 6
+    range: 1.6
+    bulletRange: 1.6
+    attacksPerSecond: 2
+    sprite: {fileID: 3369475542543088110, guid: 8b958d7b560d640ef807b9f5029e454a, type: 3}
+  - name: Staff
+    damage: 5
+    range: 10
+    bulletRange: 12
+    attacksPerSecond: 1.5
+    sprite: {fileID: 6069509560950302513, guid: 5c9884920361e438ba9e77693e311efd, type: 3}
+  - name: Bow
+    damage: 4
+    range: 14
+    bulletRange: 16
+    attacksPerSecond: 2
+    sprite: {fileID: 5342339644809915694, guid: 0077590d34c954837bcc2edb9448ead4, type: 3}
+  - name: Pistol
+    damage: 3
+    range: 9
+    bulletRange: 12
+    attacksPerSecond: 3
+    sprite: {fileID: 191329510046028444, guid: d42b4b75fdf5f4cc8ab636d189217d7f, type: 3}
+  spells:
+  - mana: 15
+    cooldown: 12
+  - mana: 8
+    cooldown: 3
+  - mana: 10
+    cooldown: 8
+  wardSeconds: 4
+  wardRadius: 2.5
+  fireballRange: 18
+  fireballDamage: 12
+  shieldDelay: 3
+  quickShieldDelay: 2
+  shieldTick: 0.5
+  chopSeconds: 1.5
+  walkSpeed: 5
+  staminaSeconds: 20
+  staminaSpeedBonus: 2
+  chestSeconds:
+  - 1
+  - 2.5
+  - 4
+  aggro: 10
+  dropAggro: 16
+--- !u!4 &1414346686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414346684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1849363394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849363397}
+  - component: {fileID: 1849363396}
+  - component: {fileID: 1849363395}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1849363395
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849363394}
+  m_Enabled: 1
+--- !u!20 &1849363396
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849363394}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1849363397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849363394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1849363397}
+  - {fileID: 1414346686}
