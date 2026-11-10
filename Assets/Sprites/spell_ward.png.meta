@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 8619bcbb063524665a93b425391ca089
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6827876503786922444
+    second: spell_ward_0
+  - first:
+      213: -2824231916931142215
+    second: spell_ward_1
+  - first:
+      213: 6981701409555636678
+    second: spell_ward_2
+  - first:
+      213: 8538976897466939229
+    second: spell_ward_3
+  - first:
+      213: 63568684644347578
+    second: spell_ward_4
+  - first:
+      213: -5895533470034098872
+    second: spell_ward_5
+  - first:
+      213: -5640794183301221344
+    second: spell_ward_6
+  - first:
+      213: 7842229768318421819
+    second: spell_ward_7
+  - first:
+      213: -8179254822494262980
+    second: spell_ward_8
+  - first:
+      213: 984856688408452034
+    second: spell_ward_9
+  - first:
+      213: -2515736028442098970
+    second: spell_ward_10
+  - first:
+      213: 447605319012101835
+    second: spell_ward_11
+  - first:
+      213: 5543760201374562652
+    second: spell_ward_12
+  - first:
+      213: -2838786462805353514
+    second: spell_ward_13
+  - first:
+      213: -6698721908087569704
+    second: spell_ward_14
+  - first:
+      213: -3626213964032381703
+    second: spell_ward_15
+  - first:
+      213: 8453426987841050933
+    second: spell_ward_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spell_ward_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 1221
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1a47a218d71ce50800000000000000
+      internalID: 6827876503786922444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1183
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdaff3f8005ec8d0800000000000000
+      internalID: -2824231916931142215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_2
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1173
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1686cf07cf3e060800000000000000
+      internalID: 6981701409555636678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 921
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57b8ce2f3a808670800000000000000
+      internalID: 8538976897466939229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 761
+        width: 100
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abea013c167d1e000800000000000000
+      internalID: 63568684644347578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_5
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 734
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845013d7b8bde2ea0800000000000000
+      internalID: -5895533470034098872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_6
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 720
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024bd35939fd7b1b0800000000000000
+      internalID: -5640794183301221344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 718
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b0d93ac6235dc60800000000000000
+      internalID: 7842229768318421819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_8
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 617
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3924d113137d7e80800000000000000
+      internalID: -8179254822494262980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_9
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 432
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbd04ba0f9eaad00800000000000000
+      internalID: 984856688408452034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_10
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 492
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e28e0c396f461dd0800000000000000
+      internalID: -2515736028442098970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 413
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceaa478aa6363600800000000000000
+      internalID: 447605319012101835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_12
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 345
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f0e2f7846fec40800000000000000
+      internalID: 5543760201374562652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db9c4ba0ca9a98d0800000000000000
+      internalID: -2838786462805353514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_14
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2405b7aeb5903a0800000000000000
+      internalID: -6698721908087569704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fce94abc991dadc0800000000000000
+      internalID: -3626213964032381703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_ward_16
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 47
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53957f8ae0b905570800000000000000
+      internalID: 8453426987841050933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spell_ward_0: 6827876503786922444
+      spell_ward_1: -2824231916931142215
+      spell_ward_10: -2515736028442098970
+      spell_ward_11: 447605319012101835
+      spell_ward_12: 5543760201374562652
+      spell_ward_13: -2838786462805353514
+      spell_ward_14: -6698721908087569704
+      spell_ward_15: -3626213964032381703
+      spell_ward_16: 8453426987841050933
+      spell_ward_2: 6981701409555636678
+      spell_ward_3: 8538976897466939229
+      spell_ward_4: 63568684644347578
+      spell_ward_5: -5895533470034098872
+      spell_ward_6: -5640794183301221344
+      spell_ward_7: 7842229768318421819
+      spell_ward_8: -8179254822494262980
+      spell_ward_9: 984856688408452034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

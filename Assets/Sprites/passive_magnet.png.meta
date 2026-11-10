@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 331421bfd504342cbaad5701cb7eeac8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -305129039782656158
+    second: passive_magnet_0
+  - first:
+      213: 8656278658910050127
+    second: passive_magnet_1
+  - first:
+      213: 5915423661600591386
+    second: passive_magnet_2
+  - first:
+      213: -2599327431452046799
+    second: passive_magnet_3
+  - first:
+      213: -8340323692907080575
+    second: passive_magnet_4
+  - first:
+      213: 347908436835025940
+    second: passive_magnet_5
+  - first:
+      213: 947838416536698855
+    second: passive_magnet_6
+  - first:
+      213: -7291297545866968821
+    second: passive_magnet_7
+  - first:
+      213: 3627512703818208275
+    second: passive_magnet_8
+  - first:
+      213: 389554655655567721
+    second: passive_magnet_9
+  - first:
+      213: 1721485043279345147
+    second: passive_magnet_10
+  - first:
+      213: 1013940079367562911
+    second: passive_magnet_11
+  - first:
+      213: -8114078262395821644
+    second: passive_magnet_12
+  - first:
+      213: -5303801760199514926
+    second: passive_magnet_13
+  - first:
+      213: 8119052948373105076
+    second: passive_magnet_14
+  - first:
+      213: -3073306321925328126
+    second: passive_magnet_15
+  - first:
+      213: -6178527821004211542
+    second: passive_magnet_16
+  - first:
+      213: -5609788306390110908
+    second: passive_magnet_17
+  - first:
+      213: 3276397407614442952
+    second: passive_magnet_18
+  - first:
+      213: -6787838911992795531
+    second: passive_magnet_19
+  - first:
+      213: 9097421708099493287
+    second: passive_magnet_20
+  - first:
+      213: -2170315131811705032
+    second: passive_magnet_21
+  - first:
+      213: -5201953689778098162
+    second: passive_magnet_22
+  - first:
+      213: -6087910700868452513
+    second: passive_magnet_23
+  - first:
+      213: 8933572447792485981
+    second: passive_magnet_24
+  - first:
+      213: -804163373577505762
+    second: passive_magnet_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: passive_magnet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 1209
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267491541c6f3cbf0800000000000000
+      internalID: -305129039782656158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_1
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 983
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47d02dc397412870800000000000000
+      internalID: 8656278658910050127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 779
+        width: 73
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ec4ad9a7ec71250800000000000000
+      internalID: 5915423661600591386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_3
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 925
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a4f5119755debd0800000000000000
+      internalID: -2599327431452046799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_4
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 763
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184df7c4ac7314c80800000000000000
+      internalID: -8340323692907080575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_5
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 700
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414c9e741e404d400800000000000000
+      internalID: 347908436835025940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_6
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 658
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef732a9406672d00800000000000000
+      internalID: 947838416536698855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_7
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 660
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010ce2538b10da90800000000000000
+      internalID: -7291297545866968821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_8
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 598
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3141d41b593875230800000000000000
+      internalID: 3627512703818208275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 374
+        width: 126
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96123f635e9f76500800000000000000
+      internalID: 389554655655567721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_10
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 409
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf530daa681f3e710800000000000000
+      internalID: 1721485043279345147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 45
+        width: 335
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f962c3e412d321e00800000000000000
+      internalID: 1013940079367562911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_12
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 371
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1ad228fc0056f80800000000000000
+      internalID: -8114078262395821644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_13
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 368
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4673c566c1566b0800000000000000
+      internalID: -5303801760199514926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_14
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 375
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9ed54d3abaca070800000000000000
+      internalID: 8119052948373105076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_15
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 375
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203bdabee2c6955d0800000000000000
+      internalID: -3073306321925328126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_16
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 354
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaafc2a9ea5714aa0800000000000000
+      internalID: -6178527821004211542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 130
+        width: 93
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d2a7cd1470622b0800000000000000
+      internalID: -5609788306390110908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_18
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 129
+        width: 98
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd9ed7451a187d20800000000000000
+      internalID: 3276397407614442952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_19
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 304
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e681a1970ccc1a0800000000000000
+      internalID: -6787838911992795531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_20
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 312
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad9233e7d8804e70800000000000000
+      internalID: 9097421708099493287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 161
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f45bde2ed71e1e0800000000000000
+      internalID: -2170315131811705032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 159
+        width: 56
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e007eb62ea2fec7b0800000000000000
+      internalID: -5201953689778098162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_23
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 144
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fbf620975638ba0800000000000000
+      internalID: -6087910700868452513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_24
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 126
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5653e52fcc6afb70800000000000000
+      internalID: 8933572447792485981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_magnet_25
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 26
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1478802ca907d4f0800000000000000
+      internalID: -804163373577505762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      passive_magnet_0: -305129039782656158
+      passive_magnet_1: 8656278658910050127
+      passive_magnet_10: 1721485043279345147
+      passive_magnet_11: 1013940079367562911
+      passive_magnet_12: -8114078262395821644
+      passive_magnet_13: -5303801760199514926
+      passive_magnet_14: 8119052948373105076
+      passive_magnet_15: -3073306321925328126
+      passive_magnet_16: -6178527821004211542
+      passive_magnet_17: -5609788306390110908
+      passive_magnet_18: 3276397407614442952
+      passive_magnet_19: -6787838911992795531
+      passive_magnet_2: 5915423661600591386
+      passive_magnet_20: 9097421708099493287
+      passive_magnet_21: -2170315131811705032
+      passive_magnet_22: -5201953689778098162
+      passive_magnet_23: -6087910700868452513
+      passive_magnet_24: 8933572447792485981
+      passive_magnet_25: -804163373577505762
+      passive_magnet_3: -2599327431452046799
+      passive_magnet_4: -8340323692907080575
+      passive_magnet_5: 347908436835025940
+      passive_magnet_6: 947838416536698855
+      passive_magnet_7: -7291297545866968821
+      passive_magnet_8: 3627512703818208275
+      passive_magnet_9: 389554655655567721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

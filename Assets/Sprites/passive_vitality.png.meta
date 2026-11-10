@@ -1,0 +1,3967 @@
+fileFormatVersion: 2
+guid: a47d43469e1ad4104adb7d1aeb65effb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4802861657416675773
+    second: passive_vitality_0
+  - first:
+      213: -851065772408235994
+    second: passive_vitality_1
+  - first:
+      213: -2671201099383741568
+    second: passive_vitality_2
+  - first:
+      213: -4960476487147752507
+    second: passive_vitality_3
+  - first:
+      213: -1118618491668202215
+    second: passive_vitality_4
+  - first:
+      213: -2763233744724536079
+    second: passive_vitality_5
+  - first:
+      213: 6742443077914827766
+    second: passive_vitality_6
+  - first:
+      213: -4738516379816497278
+    second: passive_vitality_7
+  - first:
+      213: -3841279832592709954
+    second: passive_vitality_8
+  - first:
+      213: -205989423670658587
+    second: passive_vitality_9
+  - first:
+      213: 7557100975891092712
+    second: passive_vitality_10
+  - first:
+      213: 2695776904812967146
+    second: passive_vitality_11
+  - first:
+      213: -8893679353074904434
+    second: passive_vitality_12
+  - first:
+      213: 8429469367414431050
+    second: passive_vitality_13
+  - first:
+      213: 8354713838207258485
+    second: passive_vitality_14
+  - first:
+      213: -6958913667608363417
+    second: passive_vitality_15
+  - first:
+      213: 7563816218815189654
+    second: passive_vitality_16
+  - first:
+      213: -3374327108837012713
+    second: passive_vitality_17
+  - first:
+      213: 3166205730187262394
+    second: passive_vitality_18
+  - first:
+      213: 4751444984379971245
+    second: passive_vitality_19
+  - first:
+      213: -4644592081290665309
+    second: passive_vitality_20
+  - first:
+      213: -2378724890617914276
+    second: passive_vitality_21
+  - first:
+      213: 8277266106906098761
+    second: passive_vitality_22
+  - first:
+      213: -6746782651483975343
+    second: passive_vitality_23
+  - first:
+      213: 8669108725159497943
+    second: passive_vitality_24
+  - first:
+      213: -80163975171019281
+    second: passive_vitality_25
+  - first:
+      213: 5296941986399971458
+    second: passive_vitality_26
+  - first:
+      213: 5255207199412169727
+    second: passive_vitality_27
+  - first:
+      213: 5576016157179986066
+    second: passive_vitality_28
+  - first:
+      213: 9143888950843197214
+    second: passive_vitality_29
+  - first:
+      213: 2057750633110255649
+    second: passive_vitality_30
+  - first:
+      213: -7060342387350314857
+    second: passive_vitality_31
+  - first:
+      213: 8171819289364429565
+    second: passive_vitality_32
+  - first:
+      213: -8645468639372491159
+    second: passive_vitality_33
+  - first:
+      213: -8512959616554671311
+    second: passive_vitality_34
+  - first:
+      213: 8426690453762249497
+    second: passive_vitality_35
+  - first:
+      213: -3236044455146811860
+    second: passive_vitality_36
+  - first:
+      213: 2144056366755261309
+    second: passive_vitality_37
+  - first:
+      213: -2555938256709469406
+    second: passive_vitality_38
+  - first:
+      213: 5126527891583575611
+    second: passive_vitality_39
+  - first:
+      213: -8286614481717785270
+    second: passive_vitality_40
+  - first:
+      213: -5342258174349013
+    second: passive_vitality_41
+  - first:
+      213: -2687168616308668387
+    second: passive_vitality_42
+  - first:
+      213: -3309547471265930742
+    second: passive_vitality_43
+  - first:
+      213: -649829641681569710
+    second: passive_vitality_44
+  - first:
+      213: -2797082719789601903
+    second: passive_vitality_45
+  - first:
+      213: 7266959416782834269
+    second: passive_vitality_46
+  - first:
+      213: 6850259518632422473
+    second: passive_vitality_47
+  - first:
+      213: 5695835994298993096
+    second: passive_vitality_48
+  - first:
+      213: -3398021689176514956
+    second: passive_vitality_49
+  - first:
+      213: -639977595905312119
+    second: passive_vitality_50
+  - first:
+      213: 263964140653893839
+    second: passive_vitality_51
+  - first:
+      213: -7964130566632688888
+    second: passive_vitality_52
+  - first:
+      213: -2033037348628319045
+    second: passive_vitality_53
+  - first:
+      213: -4558684378608337297
+    second: passive_vitality_54
+  - first:
+      213: -6882914053371561258
+    second: passive_vitality_55
+  - first:
+      213: 6512783408051684782
+    second: passive_vitality_56
+  - first:
+      213: 4853996368103759283
+    second: passive_vitality_57
+  - first:
+      213: 7595439016426325387
+    second: passive_vitality_58
+  - first:
+      213: 709451256495052156
+    second: passive_vitality_59
+  - first:
+      213: 6366472668405102001
+    second: passive_vitality_60
+  - first:
+      213: 3986960663748565165
+    second: passive_vitality_61
+  - first:
+      213: -3602738802140997482
+    second: passive_vitality_62
+  - first:
+      213: 8345308257432681523
+    second: passive_vitality_63
+  - first:
+      213: -3727198124517889829
+    second: passive_vitality_64
+  - first:
+      213: 2625792419938055746
+    second: passive_vitality_65
+  - first:
+      213: 4105349970507606096
+    second: passive_vitality_66
+  - first:
+      213: -21683328458309332
+    second: passive_vitality_67
+  - first:
+      213: -991053286860375913
+    second: passive_vitality_68
+  - first:
+      213: 8970835971491255952
+    second: passive_vitality_69
+  - first:
+      213: 556454639031780739
+    second: passive_vitality_70
+  - first:
+      213: 9120835703925455982
+    second: passive_vitality_71
+  - first:
+      213: -444379840940458914
+    second: passive_vitality_72
+  - first:
+      213: -8134092948472200818
+    second: passive_vitality_73
+  - first:
+      213: -4867547316158706742
+    second: passive_vitality_74
+  - first:
+      213: 1508535024119457355
+    second: passive_vitality_75
+  - first:
+      213: 6214549910300098600
+    second: passive_vitality_76
+  - first:
+      213: -6359820551498488117
+    second: passive_vitality_77
+  - first:
+      213: -2374533710759249502
+    second: passive_vitality_78
+  - first:
+      213: -6652891264291089319
+    second: passive_vitality_79
+  - first:
+      213: -671209949570743084
+    second: passive_vitality_80
+  - first:
+      213: 3196686807966399899
+    second: passive_vitality_81
+  - first:
+      213: 34635955393122725
+    second: passive_vitality_82
+  - first:
+      213: 6430279674092329327
+    second: passive_vitality_83
+  - first:
+      213: 8769727406301343194
+    second: passive_vitality_84
+  - first:
+      213: -1985459832823830965
+    second: passive_vitality_85
+  - first:
+      213: 8966801736162292676
+    second: passive_vitality_86
+  - first:
+      213: 5895261643587348275
+    second: passive_vitality_87
+  - first:
+      213: 1374045488224028914
+    second: passive_vitality_88
+  - first:
+      213: 2395376513811175760
+    second: passive_vitality_89
+  - first:
+      213: -3004039794660210979
+    second: passive_vitality_90
+  - first:
+      213: -2213569182037663844
+    second: passive_vitality_91
+  - first:
+      213: 7202943070787181070
+    second: passive_vitality_92
+  - first:
+      213: 247900978756950908
+    second: passive_vitality_93
+  - first:
+      213: 6554938253032078907
+    second: passive_vitality_94
+  - first:
+      213: -4054942826797667535
+    second: passive_vitality_95
+  - first:
+      213: 8096896488250469022
+    second: passive_vitality_96
+  - first:
+      213: -3652571333278119452
+    second: passive_vitality_97
+  - first:
+      213: -8521362693695646695
+    second: passive_vitality_98
+  - first:
+      213: 5958591976725229601
+    second: passive_vitality_99
+  - first:
+      213: -5198954281874292172
+    second: passive_vitality_100
+  - first:
+      213: -4097793352991189277
+    second: passive_vitality_101
+  - first:
+      213: -5203289075324344810
+    second: passive_vitality_102
+  - first:
+      213: -8068979811476106390
+    second: passive_vitality_103
+  - first:
+      213: -2869136538488331703
+    second: passive_vitality_104
+  - first:
+      213: -2300420497792445993
+    second: passive_vitality_105
+  - first:
+      213: -2650025189810142730
+    second: passive_vitality_106
+  - first:
+      213: -6147994203241964399
+    second: passive_vitality_107
+  - first:
+      213: -940229818547223858
+    second: passive_vitality_108
+  - first:
+      213: 4600373173185558050
+    second: passive_vitality_109
+  - first:
+      213: 2151611783076217045
+    second: passive_vitality_110
+  - first:
+      213: 5351815731553860561
+    second: passive_vitality_111
+  - first:
+      213: -125436489920840774
+    second: passive_vitality_112
+  - first:
+      213: 4969402584320133407
+    second: passive_vitality_113
+  - first:
+      213: -2213321348189934176
+    second: passive_vitality_114
+  - first:
+      213: -4175697616245445698
+    second: passive_vitality_115
+  - first:
+      213: -6882870993145240818
+    second: passive_vitality_116
+  - first:
+      213: -6045414453180623609
+    second: passive_vitality_117
+  - first:
+      213: 5959331668907214393
+    second: passive_vitality_118
+  - first:
+      213: -1190645292344036507
+    second: passive_vitality_119
+  - first:
+      213: -2569783448434063020
+    second: passive_vitality_120
+  - first:
+      213: 3164356916371142502
+    second: passive_vitality_121
+  - first:
+      213: -3951574508892225107
+    second: passive_vitality_122
+  - first:
+      213: -4896213465160047478
+    second: passive_vitality_123
+  - first:
+      213: -9194787102372594061
+    second: passive_vitality_124
+  - first:
+      213: 7375631284799237639
+    second: passive_vitality_125
+  - first:
+      213: -2909684807516959603
+    second: passive_vitality_126
+  - first:
+      213: -3125612796644083225
+    second: passive_vitality_127
+  - first:
+      213: -8120765991086352255
+    second: passive_vitality_128
+  - first:
+      213: 745093533374118542
+    second: passive_vitality_129
+  - first:
+      213: 1481928783621411441
+    second: passive_vitality_130
+  - first:
+      213: -3935733980473643481
+    second: passive_vitality_131
+  - first:
+      213: -7397753319050258312
+    second: passive_vitality_132
+  - first:
+      213: -6193510626072015776
+    second: passive_vitality_133
+  - first:
+      213: 7557638319780345302
+    second: passive_vitality_134
+  - first:
+      213: -9019095512593785559
+    second: passive_vitality_135
+  - first:
+      213: -5957233492621354508
+    second: passive_vitality_136
+  - first:
+      213: -1484649836726923733
+    second: passive_vitality_137
+  - first:
+      213: 8909288177503884140
+    second: passive_vitality_138
+  - first:
+      213: 8244979481412851800
+    second: passive_vitality_139
+  - first:
+      213: -7540431580258531713
+    second: passive_vitality_140
+  - first:
+      213: 5093612241065518452
+    second: passive_vitality_141
+  - first:
+      213: -7823620097553675138
+    second: passive_vitality_142
+  - first:
+      213: -5200544849254719125
+    second: passive_vitality_143
+  - first:
+      213: -8859273765503502070
+    second: passive_vitality_144
+  - first:
+      213: 5456182588789848892
+    second: passive_vitality_145
+  - first:
+      213: -6635810649390708911
+    second: passive_vitality_146
+  - first:
+      213: -3034372428693046268
+    second: passive_vitality_147
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: passive_vitality_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ec55ce4cec85db0800000000000000
+      internalID: -4802861657416675773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1123
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6281d1b60386034f0800000000000000
+      internalID: -851065772408235994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1191
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0836993b0ccfdead0800000000000000
+      internalID: -2671201099383741568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 1108
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c371eaaae8d82bb0800000000000000
+      internalID: -4960476487147752507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1026
+        width: 172
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dfee4986ed970f0800000000000000
+      internalID: -1118618491668202215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1209
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f45256ac8507a9d0800000000000000
+      internalID: -2763233744724536079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_6
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1207
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb9761a148f19d50800000000000000
+      internalID: 6742443077914827766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1205
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28feaa255786d3eb0800000000000000
+      internalID: -4738516379816497278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1173
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6807f185801bac0800000000000000
+      internalID: -3841279832592709954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_9
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1084
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e97f96e5bd242df0800000000000000
+      internalID: -205989423670658587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1197
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e41fbf5c4730e860800000000000000
+      internalID: 7557100975891092712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1190
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae43415efc2596520800000000000000
+      internalID: 2695776904812967146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1173
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e829eb5cfbd439480800000000000000
+      internalID: -8893679353074904434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_13
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1114
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d16c97abd7bf470800000000000000
+      internalID: 8429469367414431050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_14
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1165
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f426e78f7e1f370800000000000000
+      internalID: 8354713838207258485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_15
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1173
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eb793a3e8fc6f90800000000000000
+      internalID: -6958913667608363417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1173
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69251d4b6c218f860800000000000000
+      internalID: 7563816218815189654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1156
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b8cc95f5bfb21d0800000000000000
+      internalID: -3374327108837012713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_18
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1150
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab93e99165f90fb20800000000000000
+      internalID: 3166205730187262394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_19
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1124
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da697cff90680f140800000000000000
+      internalID: 4751444984379971245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_20
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2e3143c181b8fb0800000000000000
+      internalID: -4644592081290665309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1108
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cd654a0521dfed0800000000000000
+      internalID: -2378724890617914276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cb48d5ba1ced270800000000000000
+      internalID: 8277266106906098761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_23
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1086
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519789acec9e52a0800000000000000
+      internalID: -6746782651483975343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 132
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d01f52647cde4870800000000000000
+      internalID: 8669108725159497943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_25
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1068
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fede5201a4333eef0800000000000000
+      internalID: -80163975171019281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_26
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1068
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288e8371ca4828940800000000000000
+      internalID: 5296941986399971458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_27
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 970
+        width: 144
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffba906ca1f3ee840800000000000000
+      internalID: 5255207199412169727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1014
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2904d86e62df16d40800000000000000
+      internalID: 5576016157179986066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_29
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1032
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17c0aced8e95ee70800000000000000
+      internalID: 9143888950843197214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 714
+        width: 121
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1283fd26c499e8c10800000000000000
+      internalID: 2057750633110255649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_31
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1004
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790e9598100a40e90800000000000000
+      internalID: -7060342387350314857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 935
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa7047f852286170800000000000000
+      internalID: 8171819289364429565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 923
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9664c610410250880800000000000000
+      internalID: -8645468639372491159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_34
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 937
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13363041554ebd980800000000000000
+      internalID: -8512959616554671311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_35
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 936
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9139ca8325e91f470800000000000000
+      internalID: 8426690453762249497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_36
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 914
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e0a9d96b24713d0800000000000000
+      internalID: -3236044455146811860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_37
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 956
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bacd6e7e731cd10800000000000000
+      internalID: 2144056366755261309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_38
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 937
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b300d82bb778cd0800000000000000
+      internalID: -2555938256709469406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_39
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 919
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36a8f4b4f5152740800000000000000
+      internalID: 5126527891583575611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_40
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 927
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8a928808000d80800000000000000
+      internalID: -8286614481717785270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_41
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 911
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2138379e350deff0800000000000000
+      internalID: -5342258174349013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_42
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 901
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d180855716245bad0800000000000000
+      internalID: -2687168616308668387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_43
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 899
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02e6ef0c102212d0800000000000000
+      internalID: -3309547471265930742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_44
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 876
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258fc0342675bf6f0800000000000000
+      internalID: -649829641681569710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 861
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bae8ff514ce29d0800000000000000
+      internalID: -2797082719789601903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_46
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 871
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a458a661d69d460800000000000000
+      internalID: 7266959416782834269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_47
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 847
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ce25becb2011f50800000000000000
+      internalID: 6850259518632422473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 846
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c94313b8acab0f40800000000000000
+      internalID: 5695835994298993096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_49
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 851
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e9f85f64dc7d0d0800000000000000
+      internalID: -3398021689176514956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 863
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98afadb64c75e17f0800000000000000
+      internalID: -639977595905312119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_51
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 857
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8dd15ccf9c9a300800000000000000
+      internalID: 263964140653893839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_52
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 811
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80337070279b97190800000000000000
+      internalID: -7964130566632688888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_53
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 845
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb438eb8d4339c3e0800000000000000
+      internalID: -2033037348628319045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_54
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 843
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e7de9e5bc4cb0c0800000000000000
+      internalID: -4558684378608337297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_55
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 843
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da7e3db22afa70a0800000000000000
+      internalID: -6882914053371561258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_56
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 843
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea58affd00e026a50800000000000000
+      internalID: 6512783408051684782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_57
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 791
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd5cddaafbdc5340800000000000000
+      internalID: 4853996368103759283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 791
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85cb370b8b686960800000000000000
+      internalID: 7595439016426325387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_59
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 804
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7597d0b82a78d900800000000000000
+      internalID: 709451256495052156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_60
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 809
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5f48039214a5850800000000000000
+      internalID: 6366472668405102001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_61
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 805
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da850309997845730800000000000000
+      internalID: 3986960663748565165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_62
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 744
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6989ed7c520800ec0800000000000000
+      internalID: -3602738802140997482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 696
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cb86115ad70d370800000000000000
+      internalID: 8345308257432681523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_64
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 730
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8eb94ad05564cc0800000000000000
+      internalID: -3727198124517889829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 752
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246325c3b40b07420800000000000000
+      internalID: 2625792419938055746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_66
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 733
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05824ce0c0229f830800000000000000
+      internalID: 4105349970507606096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_67
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 765
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21c1bda027f2bff0800000000000000
+      internalID: -21683328458309332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_68
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 733
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798343359421f32f0800000000000000
+      internalID: -991053286860375913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_69
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 778
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096580b59cfce7c70800000000000000
+      internalID: 8970835971491255952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_70
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 751
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3858b15cb8ce8b700800000000000000
+      internalID: 556454639031780739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_71
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 734
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c3d2b9fb7b39e70800000000000000
+      internalID: 9120835703925455982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_72
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 753
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c366b93ee35d9f0800000000000000
+      internalID: -444379840940458914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_73
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 732
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e810e444f85ed1f80800000000000000
+      internalID: -8134092948472200818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_74
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 708
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb44fc518ff27cb0800000000000000
+      internalID: -4867547316158706742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_75
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 751
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4620e3ac946fe410800000000000000
+      internalID: 1508535024119457355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 562
+        width: 48
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8208f52a7348e3650800000000000000
+      internalID: 6214549910300098600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_77
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 565
+        width: 102
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc624b877e06db7a0800000000000000
+      internalID: -6359820551498488117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_78
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 690
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9310fbb26fb0fd0800000000000000
+      internalID: -2374533710759249502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 674
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95451a6c4ae2ca3a0800000000000000
+      internalID: -6652891264291089319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_80
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 656
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c02a6b126fa6f0800000000000000
+      internalID: -671209949570743084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_81
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 678
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9db30f07b9ec5c20800000000000000
+      internalID: 3196686807966399899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_82
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 602
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1d9a9c73d0b7000800000000000000
+      internalID: 34635955393122725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_83
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 550
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6910b46b41fc3950800000000000000
+      internalID: 6430279674092329327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_84
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 550
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add699dac9454b970800000000000000
+      internalID: 8769727406301343194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_85
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 529
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46aabc2dca3274e0800000000000000
+      internalID: -1985459832823830965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c33f4fbbaa707c70800000000000000
+      internalID: 8966801736162292676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_87
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 529
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337620cfa3d20d150800000000000000
+      internalID: 5895261643587348275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_88
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 530
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f842de6717911310800000000000000
+      internalID: 1374045488224028914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_89
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 487
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05957018f361e3120800000000000000
+      internalID: 2395376513811175760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_90
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 499
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6042c09b18f46d0800000000000000
+      internalID: -3004039794660210979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_91
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 505
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f94e29e82d741e0800000000000000
+      internalID: -2213569182037663844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_92
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 505
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a91af5f8ef5f360800000000000000
+      internalID: 7202943070787181070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_93
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 467
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b974270a8b07300800000000000000
+      internalID: 247900978756950908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_94
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 492
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3eb8909c91d7fa50800000000000000
+      internalID: 6554938253032078907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_95
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 477
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13be438abf2f9b7c0800000000000000
+      internalID: -4054942826797667535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_96
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 492
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ae645f474fd5070800000000000000
+      internalID: 8096896488250469022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 148
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9ce2b79b57f4dc0800000000000000
+      internalID: -3652571333278119452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_98
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 469
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914510837c90eb980800000000000000
+      internalID: -8521362693695646695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_99
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 473
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120333635db21b250800000000000000
+      internalID: 5958591976725229601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_100
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 451
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432036930aa99d7b0800000000000000
+      internalID: -5198954281874292172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 457
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6d00018a6b127c0800000000000000
+      internalID: -4097793352991189277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_102
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 457
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6162f9977243ac7b0800000000000000
+      internalID: -5203289075324344810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631b2ddc99350090800000000000000
+      internalID: -8068979811476106390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_104
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 433
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9422f430587ce28d0800000000000000
+      internalID: -2869136538488331703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_105
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 410
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1dd03deb34310e0800000000000000
+      internalID: -2300420497792445993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_106
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 371
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1878b5128393bd0800000000000000
+      internalID: -2650025189810142730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_107
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 381
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c1a9a78dfedaaa0800000000000000
+      internalID: -6147994203241964399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_108
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 369
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2434a26f1a3f2f0800000000000000
+      internalID: -940229818547223858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_109
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 347
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22636f5f60fc7df30800000000000000
+      internalID: 4600373173185558050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_110
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 345
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d08dc8548f0cdd10800000000000000
+      internalID: 2151611783076217045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_111
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 321
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db7d9e7d08754a40800000000000000
+      internalID: 5351815731553860561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_112
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 359
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb75605d2c524ef0800000000000000
+      internalID: -125436489920840774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_113
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 337
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f194f48425dd6f440800000000000000
+      internalID: 4969402584320133407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 308
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ada953e5f3b841e0800000000000000
+      internalID: -2213321348189934176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_115
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 314
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbae3e4421fc06c0800000000000000
+      internalID: -4175697616245445698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_116
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 294
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03ecba7c412b70a0800000000000000
+      internalID: -6882870993145240818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_117
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 286
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7051826b59f5a1ca0800000000000000
+      internalID: -6045414453180623609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_118
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 296
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93643f7349cc3b250800000000000000
+      internalID: 5959331668907214393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_119
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 278
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563b7583a6af97fe0800000000000000
+      internalID: -1190645292344036507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_120
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 271
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459c866a19b465cd0800000000000000
+      internalID: -2569783448434063020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_121
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 272
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6673ad699dd0aeb20800000000000000
+      internalID: 3164356916371142502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_122
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 235
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da18df5abef2929c0800000000000000
+      internalID: -3951574508892225107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_123
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 248
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84a6a07bc72d0cb0800000000000000
+      internalID: -4896213465160047478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_124
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 246
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37efcb1b8dd856080800000000000000
+      internalID: -9194787102372594061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 51
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e67b463918b5660800000000000000
+      internalID: 7375631284799237639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 210
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cc99f6519be97d0800000000000000
+      internalID: -2909684807516959603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 199
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e93d9eb8b79f94d0800000000000000
+      internalID: -3125612796644083225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_128
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 209
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18899355b5e3d4f80800000000000000
+      internalID: -8120765991086352255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_129
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 194
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a7435fe9a175a00800000000000000
+      internalID: 745093533374118542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_130
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 234
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1725e2a806ed09410800000000000000
+      internalID: 1481928783621411441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_131
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 208
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e2f631cc67169c0800000000000000
+      internalID: -3935733980473643481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_132
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 163
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878da022d86e55990800000000000000
+      internalID: -7397753319050258312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_133
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 179
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cce5476ea3c0aa0800000000000000
+      internalID: -6193510626072015776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5336f720022e860800000000000000
+      internalID: 7557638319780345302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_135
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 119
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d1780aa6cb5d280800000000000000
+      internalID: -9019095512593785559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_136
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 118
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f99e3483b7a35da0800000000000000
+      internalID: -5957233492621354508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_137
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 87
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ecc0ae6d6756be0800000000000000
+      internalID: -1484649836726923733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_138
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63d4bdd46624ab70800000000000000
+      internalID: 8909288177503884140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_139
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 105
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8585ff1972d0c6270800000000000000
+      internalID: 8244979481412851800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_140
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 89
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f768d8dbd610b5790800000000000000
+      internalID: -7540431580258531713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_141
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475aa4c985520b640800000000000000
+      internalID: 5093612241065518452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cc4bbf8faec6390800000000000000
+      internalID: -7823620097553675138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_143
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 55
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b616fa56304f3d7b0800000000000000
+      internalID: -5200544849254719125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_144
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 17
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09f93fd2798d0580800000000000000
+      internalID: -8859273765503502070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_145
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 34
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b7d7a082148bb40800000000000000
+      internalID: 5456182588789848892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_146
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 15
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15700565f5dd8e3a0800000000000000
+      internalID: -6635810649390708911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: passive_vitality_147
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cf2875a5eb3e5d0800000000000000
+      internalID: -3034372428693046268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      passive_vitality_0: -4802861657416675773
+      passive_vitality_1: -851065772408235994
+      passive_vitality_10: 7557100975891092712
+      passive_vitality_100: -5198954281874292172
+      passive_vitality_101: -4097793352991189277
+      passive_vitality_102: -5203289075324344810
+      passive_vitality_103: -8068979811476106390
+      passive_vitality_104: -2869136538488331703
+      passive_vitality_105: -2300420497792445993
+      passive_vitality_106: -2650025189810142730
+      passive_vitality_107: -6147994203241964399
+      passive_vitality_108: -940229818547223858
+      passive_vitality_109: 4600373173185558050
+      passive_vitality_11: 2695776904812967146
+      passive_vitality_110: 2151611783076217045
+      passive_vitality_111: 5351815731553860561
+      passive_vitality_112: -125436489920840774
+      passive_vitality_113: 4969402584320133407
+      passive_vitality_114: -2213321348189934176
+      passive_vitality_115: -4175697616245445698
+      passive_vitality_116: -6882870993145240818
+      passive_vitality_117: -6045414453180623609
+      passive_vitality_118: 5959331668907214393
+      passive_vitality_119: -1190645292344036507
+      passive_vitality_12: -8893679353074904434
+      passive_vitality_120: -2569783448434063020
+      passive_vitality_121: 3164356916371142502
+      passive_vitality_122: -3951574508892225107
+      passive_vitality_123: -4896213465160047478
+      passive_vitality_124: -9194787102372594061
+      passive_vitality_125: 7375631284799237639
+      passive_vitality_126: -2909684807516959603
+      passive_vitality_127: -3125612796644083225
+      passive_vitality_128: -8120765991086352255
+      passive_vitality_129: 745093533374118542
+      passive_vitality_13: 8429469367414431050
+      passive_vitality_130: 1481928783621411441
+      passive_vitality_131: -3935733980473643481
+      passive_vitality_132: -7397753319050258312
+      passive_vitality_133: -6193510626072015776
+      passive_vitality_134: 7557638319780345302
+      passive_vitality_135: -9019095512593785559
+      passive_vitality_136: -5957233492621354508
+      passive_vitality_137: -1484649836726923733
+      passive_vitality_138: 8909288177503884140
+      passive_vitality_139: 8244979481412851800
+      passive_vitality_14: 8354713838207258485
+      passive_vitality_140: -7540431580258531713
+      passive_vitality_141: 5093612241065518452
+      passive_vitality_142: -7823620097553675138
+      passive_vitality_143: -5200544849254719125
+      passive_vitality_144: -8859273765503502070
+      passive_vitality_145: 5456182588789848892
+      passive_vitality_146: -6635810649390708911
+      passive_vitality_147: -3034372428693046268
+      passive_vitality_15: -6958913667608363417
+      passive_vitality_16: 7563816218815189654
+      passive_vitality_17: -3374327108837012713
+      passive_vitality_18: 3166205730187262394
+      passive_vitality_19: 4751444984379971245
+      passive_vitality_2: -2671201099383741568
+      passive_vitality_20: -4644592081290665309
+      passive_vitality_21: -2378724890617914276
+      passive_vitality_22: 8277266106906098761
+      passive_vitality_23: -6746782651483975343
+      passive_vitality_24: 8669108725159497943
+      passive_vitality_25: -80163975171019281
+      passive_vitality_26: 5296941986399971458
+      passive_vitality_27: 5255207199412169727
+      passive_vitality_28: 5576016157179986066
+      passive_vitality_29: 9143888950843197214
+      passive_vitality_3: -4960476487147752507
+      passive_vitality_30: 2057750633110255649
+      passive_vitality_31: -7060342387350314857
+      passive_vitality_32: 8171819289364429565
+      passive_vitality_33: -8645468639372491159
+      passive_vitality_34: -8512959616554671311
+      passive_vitality_35: 8426690453762249497
+      passive_vitality_36: -3236044455146811860
+      passive_vitality_37: 2144056366755261309
+      passive_vitality_38: -2555938256709469406
+      passive_vitality_39: 5126527891583575611
+      passive_vitality_4: -1118618491668202215
+      passive_vitality_40: -8286614481717785270
+      passive_vitality_41: -5342258174349013
+      passive_vitality_42: -2687168616308668387
+      passive_vitality_43: -3309547471265930742
+      passive_vitality_44: -649829641681569710
+      passive_vitality_45: -2797082719789601903
+      passive_vitality_46: 7266959416782834269
+      passive_vitality_47: 6850259518632422473
+      passive_vitality_48: 5695835994298993096
+      passive_vitality_49: -3398021689176514956
+      passive_vitality_5: -2763233744724536079
+      passive_vitality_50: -639977595905312119
+      passive_vitality_51: 263964140653893839
+      passive_vitality_52: -7964130566632688888
+      passive_vitality_53: -2033037348628319045
+      passive_vitality_54: -4558684378608337297
+      passive_vitality_55: -6882914053371561258
+      passive_vitality_56: 6512783408051684782
+      passive_vitality_57: 4853996368103759283
+      passive_vitality_58: 7595439016426325387
+      passive_vitality_59: 709451256495052156
+      passive_vitality_6: 6742443077914827766
+      passive_vitality_60: 6366472668405102001
+      passive_vitality_61: 3986960663748565165
+      passive_vitality_62: -3602738802140997482
+      passive_vitality_63: 8345308257432681523
+      passive_vitality_64: -3727198124517889829
+      passive_vitality_65: 2625792419938055746
+      passive_vitality_66: 4105349970507606096
+      passive_vitality_67: -21683328458309332
+      passive_vitality_68: -991053286860375913
+      passive_vitality_69: 8970835971491255952
+      passive_vitality_7: -4738516379816497278
+      passive_vitality_70: 556454639031780739
+      passive_vitality_71: 9120835703925455982
+      passive_vitality_72: -444379840940458914
+      passive_vitality_73: -8134092948472200818
+      passive_vitality_74: -4867547316158706742
+      passive_vitality_75: 1508535024119457355
+      passive_vitality_76: 6214549910300098600
+      passive_vitality_77: -6359820551498488117
+      passive_vitality_78: -2374533710759249502
+      passive_vitality_79: -6652891264291089319
+      passive_vitality_8: -3841279832592709954
+      passive_vitality_80: -671209949570743084
+      passive_vitality_81: 3196686807966399899
+      passive_vitality_82: 34635955393122725
+      passive_vitality_83: 6430279674092329327
+      passive_vitality_84: 8769727406301343194
+      passive_vitality_85: -1985459832823830965
+      passive_vitality_86: 8966801736162292676
+      passive_vitality_87: 5895261643587348275
+      passive_vitality_88: 1374045488224028914
+      passive_vitality_89: 2395376513811175760
+      passive_vitality_9: -205989423670658587
+      passive_vitality_90: -3004039794660210979
+      passive_vitality_91: -2213569182037663844
+      passive_vitality_92: 7202943070787181070
+      passive_vitality_93: 247900978756950908
+      passive_vitality_94: 6554938253032078907
+      passive_vitality_95: -4054942826797667535
+      passive_vitality_96: 8096896488250469022
+      passive_vitality_97: -3652571333278119452
+      passive_vitality_98: -8521362693695646695
+      passive_vitality_99: 5958591976725229601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
