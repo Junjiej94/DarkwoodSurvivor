@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: b21efe55a06c2453f8ad48802803b27b
+guid: 5c9884920361e438ba9e77693e311efd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5886300001529474947
-    second: pp_0
+      213: 6069509560950302513
+    second: weapon_staff_0
+  - first:
+      213: -3189457590067270599
+    second: weapon_staff_1
+  - first:
+      213: 5561913342758652518
+    second: weapon_staff_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,13 +108,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pp_0
+      name: weapon_staff_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2360
-        height: 1640
+        x: 84
+        y: 911
+        width: 14
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +123,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38fab881aa650b150800000000000000
-      internalID: 5886300001529474947
+      spriteID: 137a74db9ca3b3450800000000000000
+      internalID: 6069509560950302513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_staff_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 1112
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cedd56835ccb3d0800000000000000
+      internalID: -3189457590067270599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon_staff_2
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 354
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a82aa87b2ef2d40800000000000000
+      internalID: 5561913342758652518
       vertices: []
       indices: 
       edges: []
@@ -137,7 +187,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pp_0: 5886300001529474947
+      weapon_staff_0: 6069509560950302513
+      weapon_staff_1: -3189457590067270599
+      weapon_staff_2: 5561913342758652518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
