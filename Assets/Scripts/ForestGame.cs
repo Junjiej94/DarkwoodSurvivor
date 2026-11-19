@@ -45,6 +45,14 @@ public partial class ForestGame : MonoBehaviour
     [Tooltip("Grass, tree, stump, chest, enemy spawner, miniboss, boss. Boss weight selects its location, never its count.")]
     public float[] tileWeights = { 80, 15, 4, .05f, .15f, .003f, 1 };
     public Sprite background, grass, tree, stump, playerArt, chestArt, bossArt, miniArt, meleeArt, rangedArt;
+
+    [Header("Enemy Animations (4 frames each: Idle, Walk, Attack, Death)")]
+    public Sprite arrowArt;
+    public Sprite[] bossIdle, bossWalk, bossAttack, bossDeath;
+    public Sprite[] miniIdle, miniWalk, miniAttack, miniDeath;
+    public Sprite[] meleeIdle, meleeWalk, meleeAttack, meleeDeath;
+    public Sprite[] rangedIdle, rangedWalk, rangedAttack, rangedDeath;
+
     public Sprite goldArt, heartArt, xpArt, manaArt, staminaArt, bookArt;
     public Sprite[] activeArt = new Sprite[3], passiveArt = new Sprite[3];
     [Header("Weapons: sword, staff, bow, pistol, then optional loot weapons")]
