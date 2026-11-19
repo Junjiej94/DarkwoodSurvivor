@@ -168,6 +168,87 @@ MonoBehaviour:
   miniArt: {fileID: -7309935426003708424, guid: 43efbcf386ec246c38c7de7b953b7125, type: 3}
   meleeArt: {fileID: 3141102024783767821, guid: 4e131ab4bf9ca499385332c4ebf42022, type: 3}
   rangedArt: {fileID: -7679959431736786339, guid: b3eed55599c904a0dbf0a967cc2d7285, type: 3}
+  arrowArt: {fileID: 21300000, guid: 4f1025227bea04bd1bce58ee9d7581c1, type: 3}
+  bossIdle:
+  - {fileID: -5799777645302476164, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 8040075174797850352, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: -702389828531848117, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 6742845377940259676, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  bossWalk:
+  - {fileID: 7625325594167539328, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 3742890045128495410, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 3522285842860416765, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 8468103925957186075, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  bossAttack:
+  - {fileID: 3472504089250229706, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: -3771209081441792315, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: -1772781782791665416, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: -1853927185849669556, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  bossDeath:
+  - {fileID: -7870984334711997748, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 3351246626195251805, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: 7496678207761533862, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  - {fileID: -8480641944102272204, guid: 9979d33bae34741bb85d08c6db66d3ff, type: 3}
+  miniIdle:
+  - {fileID: -7676745158868362145, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 4056089938822356017, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 2885302571829670794, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: -3126520943441781119, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  miniWalk:
+  - {fileID: 8735286553577163795, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: -1804495647694259091, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 6231571440875605834, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 7277302071345401437, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  miniAttack:
+  - {fileID: -6612400184069078616, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 7965550792239619379, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 2266078747255267798, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: 7802225746363113468, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  miniDeath:
+  - {fileID: 8165812577244209754, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: -2426483164828524360, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: -648664026556136896, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  - {fileID: -1468299221514852845, guid: ae816b22bbb9d48d28da49010f35fe82, type: 3}
+  meleeIdle:
+  - {fileID: 5006459250360132495, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -7805935386710148164, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: 3043956001190574224, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: 4878111824194055445, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  meleeWalk:
+  - {fileID: 3972939591159511084, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: 2866481514120641309, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -30403140642424336, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -7032639560339456748, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  meleeAttack:
+  - {fileID: -7406861179208953827, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -724452118569313844, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: 2591327245679415120, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -1529667322575501294, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  meleeDeath:
+  - {fileID: 5157352317145503484, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -1552750289288645937, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -3542204704400946857, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  - {fileID: -3458095908683851614, guid: 667a65d03008a4e3392542484e9f49b3, type: 3}
+  rangedIdle:
+  - {fileID: -3322172525545535392, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: -9161558540685069221, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 453353863142501177, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 2720427355204114704, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  rangedWalk:
+  - {fileID: -1786132042323287526, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 4186093368520494232, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: -7795645647631509253, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 7438842617606013576, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  rangedAttack:
+  - {fileID: -5645628303041958066, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 4216780203185835079, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: -6694178971066552158, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: -6158555122633014878, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  rangedDeath:
+  - {fileID: 5540093811210168912, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 1367501661281906825, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 7410645363290962287, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
+  - {fileID: 7719044076811722844, guid: 2b6421861e7b54dfcaeca2dbb31bbb52, type: 3}
   goldArt: {fileID: -7888306666823172397, guid: ed35364ce491b46498032341e3484454, type: 3}
   heartArt: {fileID: 5919636899731364899, guid: 2be0f535dcf6f4fd1992ef38aa00b833, type: 3}
   xpArt: {fileID: 982481958187241219, guid: 055144d236f8c4b74b176d4c5b4f1099, type: 3}
