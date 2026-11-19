@@ -229,8 +229,10 @@ MonoBehaviour:
   - 1
   - 2.5
   - 4
-  aggro: 10
-  dropAggro: 16
+  aggro: 5
+  dropAggro: 10
+  pathRefreshSeconds: 0.75
+  pathSearchBudget: 6000
 --- !u!4 &1414346686
 Transform:
   m_ObjectHideFlags: 0

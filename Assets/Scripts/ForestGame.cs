@@ -5,7 +5,7 @@ using Random = UnityEngine.Random;
 
 public partial class ForestGame : MonoBehaviour
 {
-    const int Rows = 400, Columns = 600;
+    const int Rows = 250, Columns = 375;
     static readonly KeyCode[] NumberKeys = { KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3 };
     static readonly string[] ActiveNames = { "Ward", "Fireball", "Heal" };
     static readonly string[] PassiveNames = { "Magnet", "Vitality", "Quick Shield" };
@@ -192,6 +192,11 @@ public partial class ForestGame : MonoBehaviour
         shield -= absorbed;
         hp = Mathf.Max(0, hp - damage + absorbed);
         dead = hp == 0;
+        if (playerAnimation)
+        {
+            playerAnimation.Trigger("Hurt");
+            if (dead) playerAnimation.Die(false);
+        }
     }
 
     void GainXp(int amount)
@@ -209,6 +214,7 @@ public partial class ForestGame : MonoBehaviour
 
     void FireWeapon()
     {
+        if (playerAnimation) playerAnimation.Trigger("Attack");
         Weapon weapon = weapons[slots[selected]];
         Enemy target = Aim(weapon.range, false);
         Vector2 direction = Direction(target);
@@ -226,6 +232,7 @@ public partial class ForestGame : MonoBehaviour
     void Cast()
     {
         if (active < 0 || time < spellReady[active] || mana < spells[active].mana) return;
+        if (playerAnimation) playerAnimation.Trigger("Cast");
         mana -= spells[active].mana;
         spellReady[active] = time + spells[active].cooldown;
         ResetShield();

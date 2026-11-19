@@ -146,6 +146,7 @@ public partial class ForestGame
                 nearest = distance;
                 chopping = tile;
                 chopEnd = time + chopSeconds;
+                if (playerAnimation) playerAnimation.Trigger("Chop");
             }
         }
         if (chopEnd > 0)
