@@ -6,11 +6,20 @@ public partial class ForestGame
     class Enemy
     {
         public Vector2 point;
+<<<<<<< HEAD
         public int kind, hp, attacks;
         public bool alerted, dying;
         public float ready, barrierEnd, animTimer, attackAnimEnd, deathEnd;
         public int frame;
+=======
+        public int kind, hp, maxHp, attacks;
+        public bool alerted;
+        public float ready, barrierEnd, pathReady;
+        public Vector2Int goal;
+        public System.Collections.Generic.List<Vector2Int> path;
+>>>>>>> 7afac70ea5cc00b3aadc85517e6bc93474d6475e
         public SpriteRenderer art;
+        public ForestAnimatedActor animation;
         public float Size => kind < 2 ? 1 : kind;
     }
 
@@ -19,14 +28,16 @@ public partial class ForestGame
         public Vector2 direction;
         public float remaining;
         public int damage;
-        public bool friendly;
+        public bool friendly, destroysTrees;
         public SpriteRenderer art;
     }
 
-    Enemy NewEnemy(Vector2Int cell, int kind) => new Enemy {
-        point = Point(cell), kind = kind,
-        hp = (kind == 3 ? 120 : kind == 2 ? 42 : kind == 1 ? 10 : 12) + (room - 1) * (kind + 1) * 4
-    };
+    Enemy NewEnemy(Vector2Int cell, int kind)
+    {
+        int health = (kind == 3 ? 120 : kind == 2 ? 42 : kind == 1 ? 10 : 12)
+            + (room - 1) * (kind + 1) * 4;
+        return new Enemy { point = Point(cell), kind = kind, hp = health, maxHp = health };
+    }
 
     void WakeEnemies()
     {
@@ -45,7 +56,10 @@ public partial class ForestGame
             Sprite art = enemy.kind == 3 ? bossArt : enemy.kind == 2 ? miniArt : enemy.kind == 1 ? rangedArt : meleeArt;
             Color tint = enemy.kind == 3 ? new Color(.7f, .1f, .24f) : enemy.kind == 2 ? new Color(.83f, .3f, .12f) :
                 enemy.kind == 1 ? new Color(.68f, .32f, .76f) : new Color(.8f, .22f, .28f);
-            enemy.art = DrawSprite("Enemy", art, tint, enemy.point, enemy.Size, 2);
+            ForestAnimatedActor prefab = enemy.kind == 3 ? bossPrefab : enemy.kind == 2 ? minibossPrefab :
+                enemy.kind == 1 ? rangedPrefab : meleePrefab;
+            enemy.animation = SpawnActor(prefab, enemy.point, enemy.Size, 2);
+            enemy.art = enemy.animation ? enemy.animation.mainSprite : DrawSprite("Enemy", art, tint, enemy.point, enemy.Size, 2);
             enemies.Add(enemy);
         }
     }
@@ -88,6 +102,7 @@ public partial class ForestGame
 
             if (enemy.alerted && !dead)
             {
+<<<<<<< HEAD
                 // Flip sprite left/right toward the player
                 if (Mathf.Abs(delta.x) > 0.05f)
                     enemy.art.flipX = delta.x < 0f;
@@ -137,6 +152,22 @@ public partial class ForestGame
             int state = time < enemy.attackAnimEnd ? 2 : (isWalking ? 1 : 0);
             enemy.animTimer += dt;
             if (enemy.animTimer >= 0.1f)
+=======
+                Vector2 next = FollowPath(enemy, reach, dt);
+                if (!safe.Contains(Cell(next))) enemy.point = next;
+                if (enemy.animation) enemy.animation.transform.position = enemy.point;
+                else enemy.art.transform.position = enemy.point;
+            }
+            if (time < enemy.ready) continue;
+            if (enemy.kind < 2 && distance > reach) continue;
+            if (enemy.kind >= 2 && distance > 8) continue;
+            enemy.ready = time + (enemy.kind >= 2 ? 1.6f : 1.1f);
+            enemy.attacks++;
+            if (enemy.animation) enemy.animation.Trigger("Attack");
+            if (enemy.kind >= 2) SmashTrees(enemy.point, enemy.Size / 2 + 1);
+            int damage = enemy.kind + room + 1;
+            if (enemy.kind == 3 && enemy.attacks % 4 == 0)
+>>>>>>> 7afac70ea5cc00b3aadc85517e6bc93474d6475e
             {
                 enemy.animTimer = 0f;
                 enemy.frame = (enemy.frame + 1) % 4;
@@ -145,6 +176,7 @@ public partial class ForestGame
         }
     }
 
+<<<<<<< HEAD
 void UpdateEnemySprite(Enemy enemy, int state)
 {
     Sprite[] frames = null;
@@ -178,6 +210,10 @@ void UpdateEnemySprite(Enemy enemy, int state)
         float projSize = projSprite != null ? 1.1f : 0.18f;
         SpawnShot(enemy.point, direction, damage, 12, false, projColor, projSprite, projSize);
     }
+=======
+    void EnemyShot(Enemy enemy, Vector2 direction, int damage) =>
+        SpawnShot(enemy.point, direction, damage, 12, false, new Color(1, .2f, .48f), enemy.kind >= 2);
+>>>>>>> 7afac70ea5cc00b3aadc85517e6bc93474d6475e
 
     Enemy Aim(float range, bool priority)
     {
@@ -197,6 +233,7 @@ void UpdateEnemySprite(Enemy enemy, int state)
         return closest;
     }
 
+<<<<<<< HEAD
     void SpawnShot(Vector2 origin, Vector2 direction, int damage, float range, bool friendly, Color color, Sprite customArt = null, float customSize = -1f)
     {
         if (direction == Vector2.zero) direction = Vector2.right;
@@ -210,6 +247,13 @@ void UpdateEnemySprite(Enemy enemy, int state)
         }
 
         shots.Add(new Shot { direction = direction, remaining = range, damage = damage, friendly = friendly, art = sr });
+=======
+    void SpawnShot(Vector2 origin, Vector2 direction, int damage, float range, bool friendly, Color color, bool destroysTrees = false)
+    {
+        if (direction == Vector2.zero) direction = Vector2.right;
+        shots.Add(new Shot { direction = direction, remaining = range, damage = damage, friendly = friendly, destroysTrees = destroysTrees,
+            art = DrawSprite("Projectile", null, color, origin, damage == fireballDamage ? .35f : .18f, 4) });
+>>>>>>> 7afac70ea5cc00b3aadc85517e6bc93474d6475e
     }
 
     void TickShots(float dt)
@@ -225,6 +269,7 @@ void UpdateEnemySprite(Enemy enemy, int state)
             for (int j = 0; j < steps && !hit; j++)
             {
                 point += delta;
+                if (shot.destroysTrees) DestroyTree(Cell(point));
                 hit = Blocked(point, 0);
                 if (hit || shot.damage == 0) continue;
                 if (!shot.friendly)
@@ -255,13 +300,20 @@ void UpdateEnemySprite(Enemy enemy, int state)
     {
         if (enemy.dying || time < enemy.barrierEnd) return;
         enemy.hp -= damage;
+        if (enemy.animation) enemy.animation.Trigger("Hurt");
         if (enemy.hp > 0) return;
+<<<<<<< HEAD
 
         enemy.dying = true;
         enemy.frame = 0;
         enemy.animTimer = 0f;
         enemy.deathEnd = time + 0.48f; // Plays all 4 death frames before disappearing
 
+=======
+        enemies.Remove(enemy);
+        if (enemy.animation) enemy.animation.Die(true);
+        else Destroy(enemy.art.gameObject);
+>>>>>>> 7afac70ea5cc00b3aadc85517e6bc93474d6475e
         AddDrop("xp", enemy.point, enemy.kind == 3 ? 250 : enemy.kind == 2 ? 60 : 16);
         AddDrop("gold", enemy.point + Vector2.right * .23f, (enemy.kind + 1) * 3);
         if (Random.value < .55f) AddDrop("mana", enemy.point + Vector2.up * .25f, 1);
