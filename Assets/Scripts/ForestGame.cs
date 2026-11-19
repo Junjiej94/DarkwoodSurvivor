@@ -209,6 +209,11 @@ public partial class ForestGame : MonoBehaviour
         shield -= absorbed;
         hp = Mathf.Max(0, hp - damage + absorbed);
         dead = hp == 0;
+        if (playerAnimation)
+        {
+            playerAnimation.Trigger("Hurt");
+            if (dead) playerAnimation.Die(false);
+        }
     }
 
     void GainXp(int amount)
@@ -226,6 +231,7 @@ public partial class ForestGame : MonoBehaviour
 
     void FireWeapon()
     {
+        if (playerAnimation) playerAnimation.Trigger("Attack");
         Weapon weapon = weapons[slots[selected]];
         Enemy target = Aim(weapon.range, false);
         Vector2 direction = Direction(target);

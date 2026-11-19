@@ -11,6 +11,7 @@ public partial class ForestGame
         if (scale <= 0) return;
         GUI.matrix = Matrix4x4.Scale(new Vector3(scale, scale, 1));
         float width = Screen.width / scale, height = Screen.height / scale;
+        DrawEnemyHealthBars(width, height, scale);
         DrawStats(width);
         DrawHotbar(width, height);
         if (!choosing && !dead && !won && !paused)
@@ -23,6 +24,23 @@ public partial class ForestGame
             if (status.Length > 0) CenterLabel(new Rect(width / 2 - 200, height - 118, 400, 24), status);
         }
         if (choosing || paused || dead || won) DrawOverlay(width, height);
+    }
+
+    void DrawEnemyHealthBars(float width, float height, float scale)
+    {
+        foreach (Enemy enemy in enemies)
+        {
+            if (enemy.hp <= 0 || !enemy.art || !enemy.art.enabled) continue;
+            Vector3 screen = view.WorldToScreenPoint(enemy.point + Vector2.up * (enemy.Size / 2 + .25f));
+            if (screen.z <= 0) continue;
+            float x = screen.x / scale, y = height - screen.y / scale;
+            float barWidth = enemy.kind == 3 ? 82 : enemy.kind == 2 ? 62 : 36;
+            if (x + barWidth / 2 < 0 || x - barWidth / 2 > width || y < 0 || y > height) continue;
+            Fill(new Rect(x - barWidth / 2 - 1, y - 1, barWidth + 2, 8), PanelColor);
+            Fill(new Rect(x - barWidth / 2, y, barWidth, 6), new Color(.22f, .1f, .1f));
+            Fill(new Rect(x - barWidth / 2, y,
+                barWidth * Mathf.Clamp01((float)enemy.hp / enemy.maxHp), 6), new Color(.85f, .2f, .23f));
+        }
     }
 
     void DrawStats(float width)

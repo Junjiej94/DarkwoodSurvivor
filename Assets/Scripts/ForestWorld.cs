@@ -38,7 +38,8 @@ public partial class ForestGame
         backdrop = null;
         lastWakeCell = new Vector2Int(-100, -100);
         ReadMap();
-        var spawn = new Vector2Int(Random.Range(125, 475), Random.Range(100, 300));
+        var spawn = new Vector2Int(Random.Range((Columns - 350) / 2, (Columns - 350) / 2 + 350),
+            Random.Range((Rows - 200) / 2, (Rows - 200) / 2 + 200));
         safe = new RectInt(spawn.x - 5, spawn.y - 2, 10, 5);
         safeWall = new RectInt(safe.xMin - 1, safe.yMin - 1, 12, 7);
         bossTile = SelectBossTile();
@@ -126,7 +127,7 @@ public partial class ForestGame
                 for (int y = 0; y < Rows; y++)
                 {
                     string line = reader.ReadLine();
-                    if (line == null) throw new FormatException("Expected 400 rows.");
+                    if (line == null) throw new FormatException($"Expected {Rows} rows.");
                     int x = 0;
                     foreach (char c in line)
                     {
@@ -135,7 +136,7 @@ public partial class ForestGame
                             throw new FormatException("Invalid tile or extra column in row " + (y + 1));
                         tiles[y, x++] = (byte)(c - '0');
                     }
-                    if (x != Columns) throw new FormatException("Expected 600 columns in row " + (y + 1));
+                    if (x != Columns) throw new FormatException($"Expected {Columns} columns in row " + (y + 1));
                 }
                 if (!string.IsNullOrWhiteSpace(reader.ReadToEnd())) throw new FormatException("Extra map rows.");
                 return;
@@ -218,7 +219,8 @@ public partial class ForestGame
     {
         view.transform.position = new Vector3(position.x, position.y, -10);
         if (backdrop) backdrop.transform.position = position;
-        hero.transform.position = position;
+        if (playerAnimation) playerAnimation.transform.position = position;
+        else hero.transform.position = position;
         ward.enabled = time < wardEnd;
         ward.transform.position = wardCenter;
         var cell = Cell(position);
