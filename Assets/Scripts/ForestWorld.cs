@@ -98,8 +98,10 @@ public partial class ForestGame
             AddDrop("fireball", Point(spawn + Vector2Int.right * 3), 1);
         }
         if (background) backdrop = DrawSprite("Background", background, Color.white, position, 50, -2);
-        playerAnimation = SpawnActor(playerPrefab, position, 1, 3);
-        hero = playerAnimation ? playerAnimation.mainSprite : DrawSprite("Player", playerArt, Color.cyan, position, 1, 3);
+        hero = DrawSprite("Player", playerArt, Color.cyan, position, 1, 3);
+        // The original player image is much larger than the individual animation frames, so repaint once
+        // with an animation frame to calculate the renderer's world scale from the active sprite.
+        if (playerAnimationFrames != null) Paint(hero, playerAnimationFrames[0], Color.cyan, position, 1);
         ward = DrawSprite("Ward", ringSprite, Color.white, position, wardRadius * 2, 5);
         ward.color = new Color(.3f, .9f, 1, .8f);
         terrain = new SpriteRenderer[ViewHeight, ViewWidth];

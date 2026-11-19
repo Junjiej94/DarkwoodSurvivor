@@ -5,10 +5,16 @@ using Random = UnityEngine.Random;
 
 public partial class ForestGame : MonoBehaviour
 {
-    const int Rows = 250, Columns = 375;
+    const int Rows = 400, Columns = 600;
+    const int PlayerFramesPerRow = 4;
+    const float PlayerWalkFramesPerSecond = 8f, PlayerActionSeconds = .42f;
     static readonly KeyCode[] NumberKeys = { KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3 };
     static readonly string[] ActiveNames = { "Ward", "Fireball", "Heal" };
     static readonly string[] PassiveNames = { "Magnet", "Vitality", "Quick Shield" };
+    static readonly string[] PlayerAnimationRows = {
+        "walk_down", "walk_up", "walk_left", "walk_right",
+        "sword", "sword_up", "sword_left", "sword_right", "bow", "staff"
+    };
 
     [Serializable] public class Weapon
     {
@@ -65,9 +71,13 @@ public partial class ForestGame : MonoBehaviour
     bool choosing, paused, dead, won;
     float time, nextShot, nextShield, wardEnd, staminaEnd, progress, chopEnd;
     Vector2 position, wardCenter;
+    Vector2 lastMove = Vector2.down;
     Vector2Int chopping;
     SpriteRenderer hero, ward, backdrop;
     Sprite solid, ringSprite;
+    Sprite[] playerAnimationFrames;
+    int playerFacingRow, playerActionRow = -1;
+    float playerWalkPhase, playerActionEnd;
     Camera view;
     Chest opening;
     Transform visuals;
@@ -82,6 +92,7 @@ public partial class ForestGame : MonoBehaviour
         view.backgroundColor = new Color(.09f, .16f, .12f);
         solid = MakeSprite(false);
         ringSprite = MakeSprite(true);
+        LoadPlayerAnimation();
         ReadLoot();
         Restart();
     }
@@ -133,6 +144,10 @@ public partial class ForestGame : MonoBehaviour
         for (int i = 0; i < 3; i++) slots[i] = -1;
         Array.Clear(spellReady, 0, spellReady.Length);
         time = nextShot = nextShield = staminaEnd = 0;
+        playerFacingRow = 0;
+        playerWalkPhase = 0;
+        playerActionRow = -1;
+        playerActionEnd = 0;
         paused = dead = won = false;
         choosing = true;
         BuildRoom();
@@ -160,6 +175,7 @@ public partial class ForestGame : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab)) tooltip = tooltip == 4 ? -1 : tooltip + 1;
         Vector2 move = new Vector2(Axis(KeyCode.A, KeyCode.D), Axis(KeyCode.S, KeyCode.W)).normalized;
         bool moving = move != Vector2.zero;
+        if (moving) lastMove = move;
         position = Move(position, move * (walkSpeed + (time < staminaEnd ? staminaSpeedBonus : 0)) * dt, .32f);
         if (moving) ResetShield();
         TickEnemies(dt);
@@ -174,6 +190,7 @@ public partial class ForestGame : MonoBehaviour
             shield++;
             nextShield = time + shieldTick;
         }
+        TickPlayerAnimation(moving, dt);
         RefreshView();
     }
 
@@ -218,6 +235,9 @@ public partial class ForestGame : MonoBehaviour
         Weapon weapon = weapons[slots[selected]];
         Enemy target = Aim(weapon.range, false);
         Vector2 direction = Direction(target);
+        if (slots[selected] == 0) TriggerPlayerAction(SwordRow(direction));
+        else if (slots[selected] == 1) TriggerPlayerAction(9);
+        else if (slots[selected] == 2) TriggerPlayerAction(8);
         nextShot = time + 1 / weapon.attacksPerSecond;
         ResetShield();
         if (slots[selected] == 0)
@@ -232,7 +252,7 @@ public partial class ForestGame : MonoBehaviour
     void Cast()
     {
         if (active < 0 || time < spellReady[active] || mana < spells[active].mana) return;
-        if (playerAnimation) playerAnimation.Trigger("Cast");
+        TriggerPlayerAction(9);
         mana -= spells[active].mana;
         spellReady[active] = time + spells[active].cooldown;
         ResetShield();
@@ -248,4 +268,65 @@ public partial class ForestGame : MonoBehaviour
         ? (Vector2) (Quaternion.Euler(0, 0, Random.Range(0f, 360f)) * Vector3.right)
         : (target.point - origin).normalized;
     Vector2 Direction(Enemy target) => Direction(target, position);
+
+    void LoadPlayerAnimation()
+    {
+        playerAnimationFrames = new Sprite[PlayerAnimationRows.Length * PlayerFramesPerRow];
+        for (int row = 0; row < PlayerAnimationRows.Length; row++)
+        for (int column = 0; column < PlayerFramesPerRow; column++)
+        {
+            string path = "PlayerAnimationV2/" + PlayerAnimationRows[row] + "_" + column;
+            Texture2D texture = Resources.Load<Texture2D>(path);
+            if (!texture || texture.width != texture.height)
+            {
+                Debug.LogWarning("Player animation frame is missing or has the wrong size: " + path +
+                    ". Using the static player sprite.", this);
+                playerAnimationFrames = null;
+                return;
+            }
+            texture.filterMode = FilterMode.Point;
+            texture.wrapMode = TextureWrapMode.Clamp;
+            playerAnimationFrames[row * PlayerFramesPerRow + column] = Sprite.Create(texture,
+                new Rect(0, 0, texture.width, texture.height),
+                new Vector2(.5f, 0), texture.width);
+        }
+    }
+
+    void TickPlayerAnimation(bool moving, float dt)
+    {
+        if (playerAnimationFrames == null || !hero) return;
+        if (moving)
+        {
+            playerWalkPhase += dt * PlayerWalkFramesPerSecond;
+            playerFacingRow = FacingRow(lastMove);
+        }
+
+        if (time < playerActionEnd)
+        {
+            float elapsed = PlayerActionSeconds - (playerActionEnd - time);
+            int frame = Mathf.Clamp(Mathf.FloorToInt(elapsed / PlayerActionSeconds * PlayerFramesPerRow),
+                0, PlayerFramesPerRow - 1);
+            hero.sprite = playerAnimationFrames[playerActionRow * PlayerFramesPerRow + frame];
+            return;
+        }
+
+        int walkFrame = moving ? Mathf.FloorToInt(playerWalkPhase) % PlayerFramesPerRow : 0;
+        hero.sprite = playerAnimationFrames[playerFacingRow * PlayerFramesPerRow + walkFrame];
+    }
+
+    static int FacingRow(Vector2 direction)
+    {
+        if (Mathf.Abs(direction.y) >= Mathf.Abs(direction.x)) return direction.y > 0 ? 1 : 0;
+        return direction.x < 0 ? 2 : 3;
+    }
+
+    // Sword rows immediately follow the four walking rows: down, up, left, right.
+    static int SwordRow(Vector2 direction) => 4 + FacingRow(direction);
+
+    void TriggerPlayerAction(int row)
+    {
+        if (playerAnimationFrames == null) return;
+        playerActionRow = row;
+        playerActionEnd = time + PlayerActionSeconds;
+    }
 }
